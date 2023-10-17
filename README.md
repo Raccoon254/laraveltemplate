@@ -42,7 +42,7 @@ php artisan serve
 
 ## Database
 MariaDB is used as the database for this project. Create a database and update the .env file with the database name, username and password.
-```bash
+```env
 DB_CONNECTION=mysql
 DB_HOST=
 DB_PORT=
