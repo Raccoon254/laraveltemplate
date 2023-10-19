@@ -52,7 +52,7 @@ php artisan migrate
 Serve the application
 
 ```bash
-php artisan serve
+npm run start
 ```
 
 ## Database
