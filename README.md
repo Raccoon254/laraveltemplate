@@ -2,46 +2,64 @@
 
 ## About Laravel Template
 
-Laravel template is an extension of the Laravel framework. It is a template that is used to create a new Laravel project with the following features:
+Laravel template is an extension of the Laravel framework. It is a template that is used to create a new Laravel project
+with the following features:
+
 - Authentication
 - Tailwind CSS
 - DaisyUI
 - Laravel Livewire
 
 ## Installation
+
 clone the repository
+
 ```bash
-git clone repos url
+git clone https://github.com/Raccoon254/laraveltemplate.git [your project name]
 ```
+
 Install composer dependencies
+
 ```bash
 composer install
 ```
+
 Install npm dependencies
+
 ```bash
 npm install
 ```
+
 Create a copy of your .env file
+
 ```bash
 cp .env.example .env
 ```
+
 Configure your .env file
 Set the application key
+
 ```bash
 php artisan key:generate
 ```
+
 Run the database migrations
+
 ```bash
 php artisan migrate
 ```
+
 Serve the application
+
 ```bash
 php artisan serve
 ```
 
-
 ## Database
-MariaDB is used as the database for this project. Create a database and update the .env file with the database name, username and password.
+
+MariaDB is used as the database for this project. Create a database and update the .env file with the database name,
+username and password.
+
 ```env
 DB_CONNECTION=mysql
 DB_HOST=
